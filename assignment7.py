@@ -1,6 +1,6 @@
 
         
-def general_average_calculator():
+def getAverage():
 
     #variable_properties = { num_of_subjects:{}, raw_sub_grade:{}}
 
