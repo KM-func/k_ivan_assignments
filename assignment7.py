@@ -25,7 +25,7 @@ def getAverage():
     #prints the average grade itself
     print(grade_average)
 
-general_average_calculator()
+getAverage()
 
 """
 
