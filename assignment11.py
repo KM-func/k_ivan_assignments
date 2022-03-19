@@ -2,7 +2,7 @@
 #variables for input
 min_num = 2
 max_num = 17
-divisibles = [2, 3]
+divisibles = [2, 3
 
 #Try to see if I can make this function loop over a list instead of having to add it
 
