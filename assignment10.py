@@ -1,7 +1,7 @@
 
 #variables for the functions.
 min_range = 4 #changed for assignment10
-max_range = 6
+max_range = 63
 multiples_of = 2
 
 def multiple_finder(min, max, multiple):
