@@ -1,12 +1,12 @@
 sentence = "how much wood could a wood chuck chuck in llanfairpyllgwyngthllygogeryquindrobothlllanthesyliogogogoch"
 
 def titleCaseConverter(sentence):
-    listOfWords = sentence.split()
-    tempList = []
-    for word in listOfWords:
+    list_of_words = sentence.split()
+    temp_list = []
+    for word in list_of_words:
         converted = word.capitalize()
-        tempList.append(converted)
-    print(" ".join(tempList))
+        temp_list.append(converted)
+    print(" ".join(temp_list))
     
 
 titleCaseConverter(sentence)
