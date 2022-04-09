@@ -1,6 +1,3 @@
-from numpy import var
-
-
 vars = [0, 1]
 
 def functionIntegerChecker(list_of_nums):

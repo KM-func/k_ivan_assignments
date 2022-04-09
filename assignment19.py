@@ -1,4 +1,3 @@
-
 str_list = ["lorem", "ipsum", "colbern", "three"]   
 
 def stringLengthFinder(str_list):
