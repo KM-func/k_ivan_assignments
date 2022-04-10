@@ -1,0 +1,61 @@
+#profile-sprites{
+    height: 200px;
+    width: 200px;
+
+    object-fit: cover;
+    border-image-width: 100px;
+    
+}
+//  -- I'm nuking this code for now. untile I figure out how spritesheets work in proper. I'll stick to individual images for now --
+        // OHHHHHHHH IT'S A SPAN! NOT AN IMAGE!!!! got it.
+//     &.phoenix{
+//         background-position: left; // add the thingy for the spritesheet here
+//     }
+//     &.larry{
+//         background-position: 0px 0px;
+//     }
+//     &.miles{
+//         background-position: 0px 0px;
+//     }
+//     &.mia{
+//         background-position: 0px 0px;
+//     }
+//     &.maya{
+//         background-position: 0px 0px;
+//     }
+//     &.franziska{
+//         background-position: 0px 0px;
+//     }
+// }
+.wrapper{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    .content{
+        .image{
+            width: auto ;
+            display: grid;
+            justify-content: center;
+
+            h3{
+                text-align: center;
+            }
+        }
+        h1{
+            text-align: center;
+        }
+        #char-description{
+            width: 20vw;
+            text-align: justify;
+        }
+        .btn-container{
+            padding-top: 1em;
+        }
+        .profile-sprites{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        
+    }
+}
