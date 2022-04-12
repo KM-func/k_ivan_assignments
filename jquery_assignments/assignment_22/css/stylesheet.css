@@ -1,0 +1,12 @@
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .content {
+  padding-top: 5em;
+}
+/*# sourceMappingURL=stylesheet.css.map */
