@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Roboto;
+}
+
+.online{
+    padding: 0;
+    font-family: sans-serif;
+    // 
+    color: white;
+    background-color: rgb(38, 45, 58);
+    #logo{
+        height: 60px;
+    }
+    .navbar-dark{
+        background-color: rgb(34, 28, 46);
+    }
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+
+    height: 100%;        
+    margin: 0%;
+
+    .article{
+        text-align: justify;
+        margin: 1em;
+    }
+}
